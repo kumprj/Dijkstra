@@ -1,5 +1,9 @@
 import java.util.ArrayList;
-
+/**
+ * Augmented Min Heap supplied by Professor.
+ * @author John Karro
+ *
+ */
 public class AugmentedMinHeap {
 	int size;
 	int numOps;

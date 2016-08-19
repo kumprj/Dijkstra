@@ -2,7 +2,10 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Tester {
-
+	
+	/*
+	 * Main method that handles the console interface
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		String gName = "";
@@ -14,7 +17,7 @@ public class Tester {
 			System.out.print("Enter name of graph text file: ");
 			gName = in.nextLine();
 		}
-		// Dev Branch
+		
 		System.out.println("-------------------------------------------");
  
 		while (true) {
