@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Tester {
 	
 	/*
-	 * Main method that handles the console interface
+	 * Main method that handles the console interface.
 	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
