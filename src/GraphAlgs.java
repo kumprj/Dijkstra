@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /*
- * Author: Robert Kump - kumprj - CSE 274 - Karro
+ * Author: Robert Kump - kumprj 
  */
 
 public class GraphAlgs {
@@ -123,11 +123,10 @@ public class GraphAlgs {
 	}
 
 	/**
-	 * Prim's algorithm. Return the length of a MST for G. You may assume G is
-	 * connected.
+	 * Prim's algorithm. Return the length of a MST for G.
 	 * 
-	 * @param G
-	 * @return int
+	 * @param G - Graph
+	 * @return int - Length of the MST
 	 */
 	static public HashMap<Integer, Integer> prim(Graph G) {
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
